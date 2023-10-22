@@ -1,0 +1,81 @@
+/* Sets page background color and other page properties not yet set */
+body {
+    background-color: lightblue;
+  }
+
+
+/* Sets formatting for all h1 header text */
+  h1 {
+    color: white;
+    text-align: center;
+    font-family: verdana;
+    font-size: 30px;
+  }
+
+/* Sets formatting for all h2 header text */
+  h2 {
+    color: white;
+    text-align: center;
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+/* Sets formatting for all h3 header text */
+  h3 {
+    color: white;
+    text-align: center;
+    font-family: verdana;
+    font-size: 20px;
+  }
+  
+  
+/* Sets formatting for all paragraph body text */
+  p {
+    font-family: verdana;
+    font-size: 16px;
+  }
+
+/* Class for centering images */
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+/* Naviagtion Bar */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: verdana;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #111;
+  }
+
+/* Sets styling for all unordered lists */
+ul {
+    font-family: verdana;
+    font-size: 16px;
+  }
+/* Sets styling for all ordered lists */
+ol {
+    font-family: verdana;
+    font-size: 16px;
+  }
